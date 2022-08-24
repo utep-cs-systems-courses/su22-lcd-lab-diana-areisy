@@ -58,7 +58,6 @@ draw_ball(int col, int row, unsigned short color)
   fillRectangle(col-1, row-1, 3, 3, color);
 }
 
-
 void
 screen_update_ball()
 {

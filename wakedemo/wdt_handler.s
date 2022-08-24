@@ -6,7 +6,6 @@
 	.section	__interrupt_vector_11,"ax"
 	.word	WDT	;entry for vector table
 	.text
-	
 
 	.extern redrawScreen
 	.extern wdt_c_handler
